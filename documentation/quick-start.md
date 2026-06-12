@@ -1,0 +1,108 @@
+# Szybki start (lokalnie)
+
+## 1. Wymagania
+
+- Python `3.10+` (zalecane 3.11/3.12)
+- Node.js `18+` oraz `npm`
+- `ffmpeg` w `PATH` (wymagane do wycinania klipów)
+
+Sprawdzenie:
+
+```bash
+python --version
+node --version
+npm --version
+ffmpeg -version
+```
+
+## 2. Backend - instalacja
+
+### Windows (PowerShell / CMD)
+
+```bash
+cd c:\Development\ContentSaaS\backend
+python -m venv .venv
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### Linux / macOS
+
+```bash
+cd backend
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## 3. Frontend - instalacja
+
+W katalogu g³ównym projektu:
+
+```bash
+cd c:\Development\ContentSaaS
+npm install
+```
+
+## 4. Uruchomienie
+
+### Terminal A (backend)
+
+```bash
+cd c:\Development\ContentSaaS\backend
+.\.venv\Scripts\activate
+python server.py
+```
+
+### Terminal B (frontend)
+
+```bash
+cd c:\Development\ContentSaaS
+npm run dev
+```
+
+## 5. Weryfikacja
+
+- Frontend: `http://localhost:5173`
+- Backend health: `http://localhost:5000/api/health`
+
+Oczekiwany wynik health:
+
+```json
+{
+  "status": "ok",
+  "message": "Content Maximizer API is running",
+  "gemini": true
+}
+```
+
+`gemini: false` oznacza, ¿e backend dzia³a, ale nie ma aktywnego klucza API.
+
+## 6. Konfiguracja klucza Gemini
+
+Projekt wspiera 2 tryby konfiguracji:
+
+1. `Silnik AI` w frontendzie (zalecane):
+- otwórz zak³adkê `Silnik AI`,
+- wpisz klucz API,
+- wybierz model,
+- kliknij zapis.
+
+2. `backend/.env` (opcjonalnie):
+
+```env
+GEMINI_API_KEY=twoj_klucz
+GEMINI_MODEL=gemini-3.1-flash-lite-preview
+PORT=5000
+```
+
+Uwaga: frontend i tak mo¿e nadpisaæ model/klucz runtime przez `/api/ai/config`.
+
+## 7. Pierwszy test end-to-end
+
+1. W `Maksymalizatorze Treœci` wklej URL YouTube i uruchom generowanie.
+2. Poczekaj na zakoñczenie streamu `/api/process_stream`.
+3. Pobierz przynajmniej 1 klip (sprawdza `yt-dlp` + `ffmpeg`).
+4. W `Planie Gry` uruchom workflow i wygeneruj tytu³y + rozdzia³y + skrypt.
+5. Zapisz skrypt do `Zarz¹dzanie skryptami` i sprawdŸ zmianê statusu.
+

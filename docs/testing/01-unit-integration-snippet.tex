@@ -1,0 +1,47 @@
+\subsection{Warstwa 1: testy programistyczne (Unit + Integration)}
+
+Testy warstwy programistycznej zostaly wykonane w srodowisku lokalnym projektu z wykorzystaniem interpretera \texttt{C:\textbackslash Development\textbackslash ContentSaaS\textbackslash backend\textbackslash .venv\textbackslash Scripts\textbackslash python.exe}. Do uruchomienia pakietu testow zastosowano narzedzie \texttt{pytest} z pluginem \texttt{pytest-cov}.
+
+Bazowa komenda pomiarowa miala postac: \texttt{python -m pytest backend/tests --cov=backend --cov-report=html --cov-report=term}. Zakres ten obejmuje testy jednostkowe oraz integracyjne backendu, w tym testy API, testy warstwy przetwarzania tresci, testy warstwy persystencji oraz testy narzedzi pomocniczych.
+
+W uruchomieniu zebrano 53 testy i wszystkie zakonczyly sie statusem PASS (0 FAIL, 0 ERROR). Otrzymany wynik potwierdza stabilnosc biezacej implementacji w zakresie pokrytych scenariuszy funkcjonalnych i walidacyjnych.
+
+\begin{table}[htbp]
+\centering
+\caption{Wynik uruchomienia testow Unit + Integration}
+\label{tab:unit_integration_summary}
+\begin{tabular}{lr}
+\hline
+Metryka & Wartosc \\
+\hline
+Liczba testow & 53 \\
+PASS & 53 \\
+FAIL & 0 \\
+ERROR & 0 \\
+Coverage surowe (\texttt{--cov=backend}) & 58\% \\
+Coverage modulow produkcyjnych & 50\% \\
+\hline
+\end{tabular}
+\end{table}
+
+Wynik coverage wymaga rozroznienia dwoch perspektyw metrycznych. Surowe 58\% obejmuje wszystkie pliki pod \texttt{backend/}, lacznie z plikami testowymi. Dla oceny jakosci testowania kodu produkcyjnego zastosowano dodatkowo raport filtrowany (\texttt{--include="backend/*.py"} oraz \texttt{--omit="backend/tests/*,backend/test\_*.py"}), ktory daje wynik 50\%.
+
+W dalszej tresci pracy jako glowny wskaznik przyjeto 50\%\footnote{Wartosc obejmuje wylacznie moduly produkcyjne backendu. Wynik 58\% jest metryka surowa i zawiera pliki testowe.}, poniewaz ten licznik lepiej reprezentuje realne pokrycie kodu dzialajacego w systemie. Roznica miedzy 58\% i 50\% wynika z wysokiego pokrycia samych plikow testowych.
+
+Wyniki raportu coverage zostaly udokumentowane graficznie. Rysunek~\ref{fig:coverage_report_summary} przedstawia widok zbiorczy raportu, a Rysunek~\ref{fig:coverage_report_full} prezentuje pelna liste plikow z poziomem pokrycia.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.95\linewidth]{coverage-report.png}
+\caption{Raport coverage: widok zbiorczy.}
+\label{fig:coverage_report_summary}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.95\linewidth]{coverage-report-full.png}
+\caption{Raport coverage: pelna lista plikow.}
+\label{fig:coverage_report_full}
+\end{figure}
+
+Analiza wynikow wskazuje, ze najwyzsze pokrycie uzyskaly moduly rdzeniowe przetwarzania i persystencji (m.in. \texttt{content\_processor.py} i \texttt{database.py}), natomiast najnizsze wartosci dotycza plikow narzedziowych, debugowych i benchmarkowych oraz czesci scenariuszy I/O i integracji z zasobami zewnetrznymi.

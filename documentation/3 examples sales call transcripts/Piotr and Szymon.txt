@@ -1,0 +1,221 @@
+Szymon Negacz:
+Piotr, zanim zaczniemy, chcę jasno ustawić ramy tej rozmowy. To nie jest rozmowa o ofercie ani o cenie. To jest rozmowa o tym, czy w twojej sprzedaży w ogóle istnieje logiczny proces decyzyjny. Jeśli go nie ma, żadna oferta nic nie zmieni. Zgadzasz się?
+
+Piotr Mazur:
+Tak, zgadzam się.
+
+Szymon:
+Dobrze. To powiedz mi wprost – co w sprzedaży dziś najbardziej nie działa?
+
+Piotr:
+Decyzje się przeciągają. Klienci są zainteresowani, rozumieją wartość, ale finalnie wszystko się rozmywa.
+
+Szymon:
+Od jak dawna to obserwujesz?
+
+Piotr:
+Około pół roku. Wcześniej domykaliśmy szybciej.
+
+Szymon:
+Co było inaczej wcześniej?
+
+Piotr:
+Mniej formalności. Klienci szybciej decydowali.
+
+Szymon:
+Nie.
+Klienci nie decydują wolniej. Klienci mają dziś więcej opcji i mniej tolerancji na chaos.
+Powiedz mi – kto podejmuje ostateczną decyzję u twojego idealnego klienta?
+
+Piotr:
+Zwykle CEO albo zarząd.
+
+Szymon:
+A z kim ty rozmawiasz na callach?
+
+Piotr:
+Najczęściej z CTO albo Head of IT.
+
+Szymon:
+Czyli sprzedajesz osobom, które rozumieją problem, ale nie ponoszą konsekwencji decyzji.
+
+Piotr:
+Tak, to prawda.
+
+Szymon:
+I teraz kluczowe pytanie.
+Dlaczego CEO miałby podjąć decyzję na podstawie rozmowy, w której nie uczestniczył?
+
+Piotr:
+Nie miałby.
+
+Szymon:
+Właśnie.
+Sprzedaż nie ginie na etapie negocjacji. Sprzedaż ginie w momencie, gdy oddajesz proces decyzyjny komuś, kto nie decyduje.
+
+Piotr:
+Czyli problemem jest już pierwszy call?
+
+Szymon:
+Problemem jest to, co uważasz za „dobry call”.
+Przejdźmy go krok po kroku. Jak wygląda wasze discovery?
+
+Piotr:
+Pytamy o obecną infrastrukturę, problemy, ograniczenia techniczne, plany rozwoju.
+
+Szymon:
+A gdzie pytania o biznes?
+
+Piotr:
+Czasem się pojawiają, ale raczej skupiamy się na technice.
+
+Szymon:
+I tu jest błąd.
+Technika jest środkiem, nie powodem decyzji.
+Ile pieniędzy klient traci miesięcznie przez obecny system?
+
+Piotr:
+Nie liczymy tego dokładnie.
+
+Szymon:
+Dlaczego?
+
+Piotr:
+Bo klienci rzadko mają takie dane.
+
+Szymon:
+To nie jest wymówka. To jest twoja rola.
+Jeśli klient nie zna kosztu problemu, nie ma powodu, żeby go rozwiązać teraz.
+
+Piotr:
+Czyli brakuje pilności.
+
+Szymon:
+Nie „brakuje”. Ona w ogóle nie powstaje.
+Co się stanie, jeśli klient nic nie zmieni przez najbliższy rok?
+
+Piotr:
+Będą dalej działać jak teraz.
+
+Szymon:
+I co to oznacza dla ich biznesu?
+
+Piotr:
+Wolniejszy rozwój, więcej ręcznej pracy, ryzyko błędów.
+
+Szymon:
+To są skutki.
+Ale gdzie jest koszt?
+
+Piotr:
+Nie przeliczamy tego na pieniądze.
+
+Szymon:
+Dlatego słyszysz „wrócimy do tego”.
+Klient wraca tylko do problemów, które bolą finansowo albo politycznie.
+
+Piotr:
+Politycznie?
+
+Szymon:
+Tak.
+Kto u klienta straci twarz, jeśli projekt nie powstanie?
+
+Piotr:
+CTO.
+
+Szymon:
+Czyli sprzedajesz komuś, kto ma ryzyko osobiste, ale nie ma decyzyjności.
+
+Piotr:
+Tak.
+
+Szymon:
+To najgorsza możliwa kombinacja.
+On będzie cię wspierał, ale nie doprowadzi do decyzji.
+
+Piotr:
+Jak to zmienić?
+
+Szymon:
+Na pierwszym callu musisz ustalić trzy rzeczy.
+Kto decyduje.
+Jak decyduje.
+I co się stanie, jeśli decyzja nie zapadnie.
+
+Piotr:
+A jeśli klient nie chce włączać CEO na call?
+
+Szymon:
+To znaczy, że jeszcze nie ma sprzedaży.
+I wtedy albo odkładasz rozmowę, albo ją kończysz.
+
+Piotr:
+To brzmi ryzykownie.
+
+Szymon:
+Nie.
+Ryzykowne jest prowadzenie dziesięciu calli, które nie prowadzą do niczego.
+
+Piotr:
+Rozumiem.
+
+Szymon:
+Nie mów „rozumiem”.
+Powiedz mi, co robisz dziś, gdy klient mówi „musimy to przemyśleć”.
+
+Piotr:
+Mówimy, że rozumiemy i jesteśmy w kontakcie.
+
+Szymon:
+Czyli oddajesz kontrolę.
+Zamiast zapytać: „Co dokładnie musi się wydarzyć, żebyście podjęli decyzję?”
+
+Piotr:
+A jeśli nie potrafią odpowiedzieć?
+
+Szymon:
+To znaczy, że nie ma decyzji.
+A sprzedaż bez decyzji to teatr.
+
+Piotr:
+Czyli powinniśmy częściej kończyć rozmowy?
+
+Szymon:
+Tak.
+Dobre zespoły sprzedażowe częściej mówią „nie” niż „może”.
+
+Piotr:
+To zmieni pipeline.
+
+Szymon:
+Tak.
+Będzie mniejszy, ale prawdziwy.
+
+Piotr:
+A zespół handlowy?
+
+Szymon:
+Zespół nie jest problemem.
+Zespół robi dokładnie to, na co pozwala proces.
+
+Piotr:
+Czyli wszystko sprowadza się do procesu decyzyjnego.
+
+Szymon:
+Zawsze.
+Ostatnie pytanie, Piotr. Jeśli nic nie zmienisz w sprzedaży, gdzie będziesz za rok?
+
+Piotr:
+W tym samym miejscu. Tylko bardziej zmęczony.
+
+Szymon:
+A jeśli to poukładamy?
+
+Piotr:
+Decyzje szybciej. Mniej calli. Więcej kontroli.
+
+Szymon:
+Dobrze.
+Na tym etapie rozmowa się kończy.
+Bo dalszy krok to już decyzja, nie rozmowa.

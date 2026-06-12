@@ -1,0 +1,86 @@
+# Architektura systemu
+
+## 1. Widok globalny
+
+System sk³ada siê z dwóch warstw:
+
+- Frontend SPA (`Vite`, czysty JS) - render UI, obs³uga interakcji, streamów i eksportów.
+- Backend API (`Flask`) - logika domenowa, integracja z Gemini, transkrypty, przetwarzanie klipów, zapis JSON.
+
+Komunikacja: HTTP/JSON + NDJSON stream dla d³ugich operacji.
+
+## 2. Frontend (src)
+
+Punkt wejœcia:
+
+- `src/main.js`
+
+Strony:
+
+- `src/pages/ContentMaximizer.js`
+- `src/pages/BusinessGrowthStrategy.js`
+- `src/pages/ScriptManagement.js`
+- `src/pages/AIEngine.js`
+- `src/pages/Settings.js`
+
+Wspólne modu³y:
+
+- `src/utils/JobManager.js` - jeden globalny manager streamów, subskrypcje stanu joba.
+- `src/utils/storage.js` - `localStorage` dla klucza/modelu i synchronizacja do backendu.
+- `src/utils/settings.js` - jêzyk i motyw (`pl/en`, `dark/light`).
+- `src/utils/sanitize.js` - escapowanie i sanitizacja treœci.
+- `src/utils/notifications.js` - Web Notifications + krótki dŸwiêk zakoñczenia.
+
+## 3. Backend (backend)
+
+Punkt wejœcia:
+
+- `backend/server.py`
+
+Modu³y backendowe:
+
+- `backend/transcript_fetcher.py` - pobieranie transkryptu YouTube, fallback jêzykowy.
+- `backend/content_processor.py` - generacja klipów, bloga, social oraz naprawa JSON.
+- `backend/business_growth_strategy_processor.py` - pipeline market research / psychoanalysis / creative brief + skrypty.
+- `backend/download_clip.py` - pobranie Ÿród³a (`yt-dlp`) i wyciêcie klipu (`ffmpeg`).
+- `backend/database.py` - persistencja JSON z zapisem atomowym.
+- `backend/website_scraper.py` - pobranie i czyszczenie treœci strony WWW.
+
+## 4. Konfiguracja AI i priorytet Ÿróde³
+
+W backendzie (`_extract_ai_config`) kolejnoœæ wyboru klucza/modelu jest nastêpuj¹ca:
+
+1. nag³ówki: `X-Gemini-Api-Key`, `X-Gemini-Model`
+2. `ai_config` w payloadzie
+3. runtime config ustawiony przez `POST /api/ai/config`
+4. zmienne œrodowiskowe (`GEMINI_API_KEY`, `GEMINI_MODEL`)
+
+## 5. Streamy i operacje d³ugie
+
+- `/api/process_stream` zwraca NDJSON (`type=progress`, `type=complete`).
+- `/api/generate_business_growth_strategy` zwraca NDJSON (`progress`, `complete`, opcjonalnie `error`).
+- pobieranie klipów dzia³a asynchronicznie przez job ID:
+- `POST /api/download_clip/start`
+- `GET /api/download_clip/status/<job_id>`
+- `GET /api/download_clip/file/<job_id>`
+
+## 6. Persistencja i stan
+
+Dane zapisywane s¹ jako pliki JSON w `backend/data`.
+
+- indeks projektów: `projects.json`
+- szczegó³y projektu: `<project_id>.json`
+- skrypty: `scripts.json`
+- indeks transkryptów: `transcripts.json`
+- snapshot transkryptu: `transcripts/<video_id>.json`
+
+Zapis realizowany jest atomowo (`tmp + os.replace`) i chroniony globalnym `threading.RLock`.
+
+## 7. Ograniczenia architektury (realny stan)
+
+- Brak autoryzacji i wielou¿ytkownikowoœci.
+- Brak kolejki rozproszonej (workerów) dla d³ugich zadañ.
+- Brak formalnego silnika workflow po stronie backendu (czêœæ regu³ jest w UI).
+- Joby pobierania klipów trzymane s¹ w pamiêci procesu backendu (po restarcie stan znika).
+
+

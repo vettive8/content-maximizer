@@ -1,0 +1,9 @@
+flask
+flask-cors
+python-dotenv
+google-genai
+yt-dlp
+youtube-transcript-api
+requests
+beautifulsoup4
+jsonschema

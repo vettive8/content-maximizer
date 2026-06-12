@@ -1,0 +1,62 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Python caches / coverage
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+coverage-report*.png
+
+# Playwright artifacts
+test-results/
+playwright-report/
+
+# Local agent/test scratch
+.texmex-temp/
+.codex_tmp*
+debug_json_failure.txt
+
+# Heavy local tooling / generated reports
+tools/zap/
+docs/testing/reports/
+
+# Non-app local thesis materials
+thesis/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Python/backend runtime data
+backend/.venv/
+backend/data/
+backend/downloads/
+backend/uploads/
+backend/__pycache__/

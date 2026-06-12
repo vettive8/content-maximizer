@@ -1,0 +1,244 @@
+Szymon Negacz
+Cześć Marcin. Widzę, że już jesteś. Daj znać, czy mnie słychać, bo testowałem nowy mikrofon przed chwilą.
+
+Marcin (ICP)
+Cześć Szymon. Tak, słychać Cię krystalicznie. Ja też jestem gotowy. Dzięki, że znalazłeś czas tak szybko.
+
+Szymon Negacz
+Nie ma sprawy. Wiesz, Twój formularz zgłoszeniowy wpadł mi w oko, bo napisałeś tam jedno zdanie, które... no, powiedzmy, że zadziałało na mnie jak płachta na byka w pozytywnym sensie.
+Napisałeś: "Mamy najlepszy produkt na rynku, ale handlowcy nie potrafią tego wytłumaczyć klientom".
+To jest klasyk, z którym walczę od lat.
+Mamy dzisiaj godzinę. Chciałbym to wykorzystać maksymalnie produktywnie.
+Opowiedz mi trochę szerszy kontekst. Jesteście firmą produkcyjną, robicie automatykę przemysłową, tak? 50 milionów obrotu?
+
+Marcin (ICP)
+Zgadza się. Dokładnie tak. Robimy linie produkcyjne pod klienta. Customowe rozwiązania.
+Firma ma 15 lat. Do tej pory to szło... wiesz, siłą rozpędu. Ja jeździłem, mój wspólnik jeździł, mieliśmy dwóch inżynierów sprzedaży, którzy byli z nami od początku.
+Klienci sami dzwonili, bo mamy renomę.
+Ale rok temu stwierdziliśmy, że rynek się zmienia. Konkurencja z Zachodu wchodzi mocno, ceny spadają. Musimy zacząć wychodzić do klienta aktywnie.
+Zatrudniłem Dyrektora Handlowego – gościa z korporacji, z wielkim CV. I on zatrudnił trzech "hunterów".
+Mieli dzwonić, mieli umawiać spotkania, mieli robić ten mityczny "cold calling".
+
+Szymon Negacz
+I co się stało?
+
+Marcin (ICP)
+I nic. Minęło 8 miesięcy. Koszty tego zespołu są gigantyczne – pensje, samochody, prowizje (których nie wypłacamy, bo nie ma wyników).
+Ten dyrektor ciągle mi pokazuje jakieś wykresy w Excelu, że "budujemy lejek", że "rozmawiamy".
+Ale faktur nie ma. Nowych klientów z tego "huntingu" mamy... jednego. I to małego.
+Więc moja diagnoza jest prosta: oni nie umieją sprzedawać.
+Bo jak ja jadę do klienta, to wracam z kontraktem. A oni jadą i wracają z "klient się zastanawia".
+Dlatego chcę, żebyś Ty wszedł. Przeszkolił ich z technik zamknięcia, z negocjacji. Żebyś im pokazał, jak się, za przeproszeniem, dowozi temat do końca.
+
+Szymon Negacz
+Okej, Marcin. Rozumiem Twoją frustrację. To jest sytuacja, którą widzę w 8 na 10 firm, które do nas trafiają.
+Ale muszę Cię trochę zmartwić na początek.
+Jeśli myślisz, że dwudniowe szkolenie z "technik zamknięcia" rozwiąże problem braku wyników po 8 miesiącach, to jesteś w błędzie.
+Zadam Ci trudne pytanie. Czy ten Dyrektor Handlowy, którego zatrudniłeś, zbudował proces sprzedaży, czy tylko zatrudnił ludzi?
+
+Marcin (ICP)
+Co masz na myśli mówiąc "proces"? No mają CRM-a. Wdrożyliśmy HubSpot Sales.
+Mają tam etapy: Lead, Kwalifikacja, Oferta, Negocjacje.
+Więc proces w systemie jest.
+
+Szymon Negacz
+To, że są etapy w CRM-ie, to jest struktura danych, a nie proces biznesowy.
+Proces to odpowiedź na pytania:
+1. Kto dokładnie jest naszym klientem (ICP) i po czym go poznajemy ZANIM zadzwonimy?
+2. Jaka jest nasza Unikalna Propozycja Wartości (UVP) dla Prezesa, a jaka dla Dyrektora Technicznego?
+3. Jakie pytania kwalifikacyjne musimy zadać na pierwszej rozmowie, żeby nie tracić czasu na oferty, które nie wejdą?
+Czy Twoi handlowcy mają to spisane? Czy mają "Playbooka"?
+
+Marcin (ICP)
+Playbooka... Nie.
+Uczyli się ode mnie. Jeździli ze mną na spotkania przez pierwszy miesiąc.
+Słuchali, jak ja rozmawiam.
+Wychodziłem z założenia, że jak usłyszą, jak ja to robię, to po prostu to skopiują.
+
+Szymon Negacz
+To jest "Founder Sales Trap". Pułapka Sprzedaży Założycielskiej.
+Marcin, Ty nie sprzedajesz procesem. Ty sprzedajesz charyzmą, wiedzą inżynierską i tym, że jesteś właścicielem.
+Klient kupuje od Ciebie zaufanie do Marcina-Właściciela.
+Handlowiec, który dzwoni "z ulicy", nie ma tego atutu. On musi mieć proces, który zbuduje to zaufanie krok po kroku.
+Jeśli oni próbują naśladować Ciebie, ale bez Twojego autorytetu, to brzmią sztucznie.
+Dlatego "klient się zastanawia". Bo klient nie widzi wartości, widzi tylko gościa, który chce mu wcisnąć maszynę.
+
+Marcin (ICP)
+Kurczę... Coś w tym jest. Ostatnio podsłuchałem rozmowę jednego z nich.
+Klient zapytał o parametry techniczne, a ten handlowiec zaczął się jąkać i powiedział, że "musi dopytać w dziale technicznym".
+Ja bym od razu wiedział.
+
+Szymon Negacz
+No właśnie. Ale nie możesz oczekiwać, że handlowiec będzie inżynierem z 15-letnim stażem.
+Od tego są narzędzia wsparcia sprzedaży (Sales Enablement).
+Wróćmy do tego Dyrektora. Co on na to? Jak on tłumaczy brak wyników?
+
+Marcin (ICP)
+Mówi, że "rynek jest trudny", że "leadów z marketingu nie ma".
+Zrzuca winę na marketing, że dostają same śmieciowe zapytania.
+
+Szymon Negacz
+Klasyczna wojna plemion: Sprzedaż kontra Marketing.
+A powiedz mi, czy Marketing wie, kogo ma ściągać? Czy macie zdefiniowane to ICP?
+Bo jeśli Marketing rzuca sieć na "każdego, kto ma fabrykę", to faktycznie handlowcy mogą dostawać śmieci.
+Ale jeśli handlowcy mają robić Cold Calling (Outbound), to nie potrzebują marketingu, potrzebują dobrej bazy i dobrego skryptu.
+Czy oni mają skrypt rozmowy?
+
+Marcin (ICP)
+Nie, nie uznaję skryptów. Nie chcę, żeby brzmieli jak telemarketerzy z fotowoltaiki.
+Mają rozmawiać naturalnie.
+
+Szymon Negacz
+I tu jest błąd myślowy.
+Skrypt w B2B to nie jest "czytanie z kartki słowo w słowo".
+Skrypt to struktura rozmowy. To lista punktów, które muszą paść.
+To tzw. "Checklista Kwalifikacyjna".
+Jeżeli zabraniasz im mieć struktury, to każda rozmowa jest improwizacją. A improwizacja jest nieskalowalna.
+Dlatego masz chaos.
+Marcin, powiem Ci wprost: Szkolenie, o które prosiłeś, w tym momencie to będzie wyrzucenie pieniędzy w błoto.
+Jeśli ja teraz nauczę ich "technik zamykania", to oni będą próbowali "domykać" klientów, którzy w ogóle nie powinni dostać oferty.
+Będą agresywni wobec niewykwalifikowanych leadów. To zepsuje Ci rynek.
+
+Marcin (ICP)
+To co ja mam zrobić? Zwolnić tego Dyrektora? Zwolnić tych ludzi?
+Zainwestowałem w nich setki tysięcy złotych.
+
+Szymon Negacz
+Nie podejmuj pochopnych decyzji. Najpierw diagnoza, potem leczenie.
+W WiseGroup robimy to tak:
+Zaczynamy od Audytu Procesu Sprzedaży.
+Wchodzimy do Twojej firmy na 2-3 tygodnie.
+1. Rozmawiamy z Tobą i wspólnikiem – wyciągamy Waszą wiedzę plemienną.
+2. Analizujemy HubSpot – sprawdzamy, gdzie realnie uciekają szanse (Conversion Rates).
+3. Robimy "Mystery Shopping" albo słuchamy nagrań – sprawdzamy, co oni realnie mówią klientom.
+4. Weryfikujemy rolę Dyrektora – czy on zarządza, czy tylko administruje.
+
+Po takim audycie dostajesz raport "Red Flag".
+Może się okazać, że ludzie są okej, ale oferta jest niezrozumiała.
+Albo, że rynek, w który celujecie, jest nasycony i trzeba zmienić segment.
+Dopiero jak będziemy mieli "Proces" – czyli ten mityczny Playbook – to wtedy możemy myśleć o szkoleniu.
+
+Marcin (ICP)
+Szymon, brzmi to profesjonalnie, ale brzmi też jak miesiące czekania.
+Ja potrzebuję cashflow. Koszty stałe mnie zjadają.
+Czy nie możemy zrobić jakiejś hybrydy? Szkolenie w trakcie audytu?
+
+Szymon Negacz
+To jak operowanie pacjenta w trakcie biegu maratońskiego. Można, ale szanse przeżycia maleją.
+Zróbmy tak. Audyt to są 3-4 tygodnie do raportu końcowego.
+Ale już po pierwszym tygodniu, po warsztatach strategicznych, będziemy mieli tzw. "Quick Wins".
+Zazwyczaj już po pierwszej sesji, gdzie ustalamy "Kwalifikację Klienta", handlowcy przestają tracić czas na 50% beznadziejnych tematów.
+To Ci od razu uwalnia zasoby.
+Zamiast dzwonić do 100 przypadkowych firm, zadzwonią do 20, ale dobrze dobranych.
+Efekt finansowy (oszczędność czasu i lepsza konwersja) zobaczysz szybciej niż myślisz.
+Powiedz mi, ile warta jest u Was średnia transakcja?
+
+Marcin (ICP)
+Średnio linia produkcyjna to jest temat rzędu 400-600 tysięcy złotych. Marża brutto około 30%.
+
+Szymon Negacz
+Czyli jeden domknięty deal to jest dla Ciebie 150 tysięcy marży.
+Mój projekt audytowy i ułożenie strategii to jest koszt rzędu [X] tysięcy złotych.
+To jest ułamek jednej transakcji.
+A my walczymy o to, żeby Twoi ludzie dowozili takich transakcji 5 czy 10 rocznie każdy.
+Ryzyko, że "nic nie zrobimy i będziemy dalej tracić pensje na nierentowny zespół" jest dużo większe, niż koszt mojej usługi.
+Czy to ma sens?
+
+Marcin (ICP)
+Matematycznie ma sens.
+Tylko wiesz, boję się jednej rzeczy. Że ten mój Dyrektor Handlowy poczuje się zagrożony.
+Że przychodzi "mądrala z zewnątrz", Szymon Negacz z podcastu, i będzie mu wytykał błędy.
+Jak to rozegrać komunikacyjnie? Nie chcę go stracić, jeśli jest dobry, tylko pogubiony.
+
+Szymon Negacz
+Bardzo dobre pytanie. To jest kluczowe.
+Nie wchodzimy tam jako prokurator. Wchodzimy jako wsparcie.
+Komunikat do Dyrektora jest taki: "Słuchaj, widzę, że walczysz. Widzę, że rynek jest trudny. Chcę Ci dać dodatkowe zasoby. Wynająłem WiseGroup, żeby pomogli Ci poukładać procesy, na które Ty nie masz czasu, bo biegasz za bieżączką".
+My często pracujemy "ramię w ramię" z dyrektorami.
+Ba, często po naszym projekcie dyrektor w końcu zaczyna być dyrektorem, a nie "starszym handlowcem od wszystkiego".
+Ale uczciwie Ci powiem, Marcin. Czasem audyt wykazuje, że Dyrektor jest hamulcowym. Że nie ma kompetencji managerskich.
+Wtedy Ty, jako właściciel, dostaniesz tę informację poufnie. I podejmiesz decyzję.
+Wolisz wiedzieć, czy wolisz się łudzić?
+
+Marcin (ICP)
+(Cisza) Wolę wiedzieć. Masz rację.
+Dobra, Szymon. Przekonałeś mnie, że szkolenie to za mało.
+Ale powiedz mi, jak wygląda zaangażowanie moje w ten proces?
+Bo ja jestem zawalony robotą operacyjną.
+
+Szymon Negacz
+Bez Ciebie tego nie zrobimy. Przykro mi.
+Ty masz wizję, Ty masz DNA tej firmy.
+Będę potrzebował Cię na trzech warsztatach strategicznych. Każdy trwa około 4 godzin.
+Jeden o Kliencie (ICP), drugi o Procesie Zakupowym, trzeci o Propozycji Wartości.
+Czyli to jest łącznie 12-16 godzin Twojego czasu w skali miesiąca.
+Plus cotygodniowy krótki status call (30 min).
+Czy jesteś w stanie wygospodarować 2 dni robocze w miesiącu, żeby naprawić dział handlowy, który kosztuje Cię milion rocznie?
+
+Marcin (ICP)
+Jak to tak stawiasz... to muszę znaleźć ten czas.
+Dobra. A co z tym marketingiem? Czy wy też ruszacie marketing?
+
+Szymon Negacz
+Tak. W WiseGroup wychodzimy z założenia, że Sprzedaż i Marketing to jest jeden proces (Smarketing).
+Podczas audytu sprawdzimy też, co robi marketing.
+Czy treści, które produkują, w ogóle odpowiadają na pytania klientów?
+Czy leady, które przekazują, mają sensowną definicję?
+Często kończy się to tym, że piszemy tzw. "SLA" (Service Level Agreement) między marketingiem a sprzedażą.
+Marketing zobowiązuje się dostarczać leady o określonych parametrach, a Sprzedaż zobowiązuje się je procesować w określonym czasie.
+Koniec z "zwalaniem winy". Są twarde dane.
+
+Marcin (ICP)
+To by było zbawienne. Bo teraz to jest przedszkole. "Oni dali słabe leady", "A oni nie dzwonią".
+Okej.
+Ile to kosztuje? Tak konkretnie. Wiem, że to zależy, ale daj mi rząd wielkości, żebym wiedział, czy w ogóle mamy o czym gadać.
+
+Szymon Negacz
+Pełen projekt transformacji dla firmy Twojej wielkości (Audyt + 3 Warsztaty Strategiczne + Ułożenie Lejka + Wdrożenie Zmian + Raport) to jest budżet w widełkach 35-50 tysięcy złotych netto.
+Możemy to rozbić na etapy.
+Etap 1: Sama Diagnoza i Strategia (bez wdrożenia nadzorczego) – to jest ok. 25 tysięcy.
+Ale szczerze? Przy Twoim problemie z egzekucją, polecam pełen pakiet, gdzie moi konsultanci pilnują wdrożenia przez kolejne 2 miesiące.
+
+Marcin (ICP)
+50 tysięcy... To jest spora kwota jednorazowo.
+Ale z drugiej strony, to jest jedna trzecia jednej transakcji.
+I to jest mniej niż dwa miesiące kosztów utrzymania tego działu, który nie działa.
+
+Szymon Negacz
+Dokładnie tak to licz.
+Marcin, ja nie jestem najtańszy na rynku. Są trenerzy, którzy przyjadą do Ciebie za 5 tysięcy i zrobią "motywacyjne show".
+Ale Ty nie szukasz show, Ty szukasz wyniku finansowego.
+Moja gwarancja jest taka: nie wyjdziemy od Ciebie, dopóki nie będziesz miał jasnego, spisanego i policzalnego procesu.
+Maszyny, która działa niezależnie od tego, czy handlowiec ma dobry humor, czy zły.
+
+Marcin (ICP)
+Rozumiem.
+Dobra. Zróbmy tak.
+Muszę to jeszcze przetrawić, ale wstępnie jestem na tak.
+Wyczerpało mnie to "czekanie na cud".
+Co teraz?
+
+Szymon Negacz
+Teraz zrobię tak:
+1. Wyślę Ci podsumowanie naszej rozmowy mailem (żebyś miał to na piśmie).
+2. Załączę wzór umowy i dokładny zakres prac (Scope of Work).
+3. Dołączę Case Study firmy produkcyjnej, której pomogliśmy 3 miesiące temu – mieli identyczny problem z "Founder Sales".
+Przeczytaj to na spokojnie dzisiaj wieczorem.
+Umówmy się na krótki telefon w czwartek – powiedzmy 9:00 rano?
+Wtedy powiesz mi: "Szymon, wchodzimy w to" albo "Szymon, pasuję". Bez żalu.
+Pasuje?
+
+Marcin (ICP)
+Pasuje. Czwartek 9:00 mam wolne.
+Dzięki za konkret. Trochę mnie sprowadziłeś na ziemię z tym szkoleniem, ale chyba tego potrzebowałem.
+
+Szymon Negacz
+Czasem kubeł zimnej wody jest lepszy niż klepanie po plecach.
+Dzięki Marcin za szczerość i otwartość. To dobrze wróży temu projektowi.
+Wysyłam maila w ciągu godziny.
+
+Marcin (ICP)
+Dzięki. Czekam na info. Do usłyszenia!
+
+Szymon Negacz
+Cześć!
