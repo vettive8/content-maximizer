@@ -2,13 +2,13 @@
 
 Bazowy adres: `http://localhost:5000`
 
-## 1. Health i konfiguracja AI
+## 1. Health I Konfiguracja AI
 
 | Metoda | Endpoint | Opis |
 |---|---|---|
-| GET | `/api/health` | Status API i informacja, czy dostêpny jest klucz Gemini. |
+| GET | `/api/health` | Status API i informacja, czy dostÄ™pny jest klucz Gemini. |
 | GET | `/api/ai/config` | Zwraca, czy runtime ma ustawiony klucz + aktualny model. |
-| POST | `/api/ai/config` | Ustawia runtime `api_key` i/lub `model`; czyœci cache procesorów. |
+| POST | `/api/ai/config` | Ustawia runtime `api_key` i/lub `model`; czyÅ›ci cache procesorÃ³w. |
 
 ## 2. Transkrypty
 
@@ -20,7 +20,7 @@ Bazowy adres: `http://localhost:5000`
 Uwagi:
 
 - Backend ma timeout 45 s dla `POST /api/transcript`.
-- Przy sukcesie transkrypt jest zapisywany niezale¿nie do `backend/data/transcripts`.
+- Przy sukcesie transkrypt jest zapisywany niezaleÅ¼nie do `backend/data/transcripts`.
 
 ## 3. Content Maximizer
 
@@ -31,11 +31,11 @@ Uwagi:
 | POST | `/api/clips` | Tylko klipy. |
 | POST | `/api/blog` | Tylko blog. |
 | POST | `/api/social` | Tylko social media. |
-| GET | `/api/categories` | Zwraca mapê kategorii klipów i zakresy czasu. |
+| GET | `/api/categories` | Zwraca mapÄ™ kategorii klipÃ³w i zakresy czasu. |
 
 ### Kontrakt `/api/process_stream`
 
-Request (przyk³ad):
+Request (przykÅ‚ad):
 
 ```json
 {
@@ -45,7 +45,7 @@ Request (przyk³ad):
   "generate": ["clips", "blog", "social"],
   "ai_config": {
     "api_key": "...",
-    "model": "gemini-3.1-flash-lite-preview"
+    "model": "gemini-3.5-flash"
   }
 }
 ```
@@ -55,13 +55,13 @@ Stream events (NDJSON):
 - `{"type":"progress","stage":"init|clips|blog|social","percent":...,"message":"...","time_remaining":"..."}`
 - `{"type":"complete","result":{...}}`
 
-Uwaga: b³êdy etapów s¹ agregowane w `result.errors`; endpoint zwykle domyka siê eventem `complete`.
+Uwaga: bÅ‚Ä™dy etapÃ³w sÄ… agregowane w `result.errors`; endpoint zwykle domyka siÄ™ eventem `complete`.
 
-## 4. Pobieranie klipów
+## 4. Pobieranie KlipÃ³w
 
 | Metoda | Endpoint | Opis |
 |---|---|---|
-| GET | `/api/download_clip` | Tryb synchroniczny (kompatybilnoœæ). |
+| GET | `/api/download_clip` | Tryb synchroniczny (kompatybilnoÅ›Ä‡). |
 | POST | `/api/download_clip/start` | Start asynchronicznego joba pobierania/wycinania klipu. |
 | GET | `/api/download_clip/status/<job_id>` | Status joba (`queued/running/completed/error`) + ETA i progres. |
 | GET | `/api/download_clip/file/<job_id>` | Pobranie pliku po statusie `completed`. |
@@ -82,47 +82,47 @@ Uwaga: b³êdy etapów s¹ agregowane w `result.errors`; endpoint zwykle domyka siê 
 
 | Metoda | Endpoint | Opis |
 |---|---|---|
-| POST | `/api/save_project` | Zapis projektu. Gdy payload zawiera `id`, nastêpuje aktualizacja istniej¹cego rekordu. |
-| GET | `/api/list_projects` | Lista metadanych projektów. |
-| GET | `/api/get_project/<project_id>` | Szczegó³y projektu. |
-| POST | `/api/delete_project` | Usuniêcie projektu po `project_id` (w body). |
-| POST | `/api/delete_all_projects` | Usuniêcie wszystkich projektów. |
+| POST | `/api/save_project` | Zapis projektu. Gdy payload zawiera `id`, nastÄ™puje aktualizacja istniejÄ…cego rekordu. |
+| GET | `/api/list_projects` | Lista metadanych projektÃ³w. |
+| GET | `/api/get_project/<project_id>` | SzczegÃ³Å‚y projektu. |
+| POST | `/api/delete_project` | UsuniÄ™cie projektu po `project_id` (w body). |
+| POST | `/api/delete_all_projects` | UsuniÄ™cie wszystkich projektÃ³w. |
 
 ## 6. Business Growth Strategy
 
 | Metoda | Endpoint | Opis |
 |---|---|---|
 | POST | `/api/generate_business_growth_strategy` | Streamowany workflow: scraping + market research + psychoanalysis + creative brief. |
-| POST | `/api/bgs/generate_titles` | Generuje 5 tytu³ów long-form. |
-| POST | `/api/bgs/generate_similar_title` | Generuje 1 podobny tytu³. |
-| POST | `/api/bgs/generate_similar_titles` | Generuje wiele podobnych tytu³ów. |
-| POST | `/api/bgs/generate_chapters` | Generuje strukturê rozdzia³ów. |
-| POST | `/api/bgs/generate_script` | Generuje skrypt rozdzia³u (opcja A/B), z opcjonaln¹ ci¹g³oœci¹ `previous_chapter_script`. |
+| POST | `/api/bgs/generate_titles` | Generuje 5 tytuÅ‚Ã³w long-form. |
+| POST | `/api/bgs/generate_similar_title` | Generuje 1 podobny tytuÅ‚. |
+| POST | `/api/bgs/generate_similar_titles` | Generuje wiele podobnych tytuÅ‚Ã³w. |
+| POST | `/api/bgs/generate_chapters` | Generuje strukturÄ™ rozdziaÅ‚Ã³w. |
+| POST | `/api/bgs/generate_script` | Generuje skrypt rozdziaÅ‚u (opcja A/B), z opcjonalnÄ… ciÄ…gÅ‚oÅ›ciÄ… `previous_chapter_script`. |
 
 `/api/generate_business_growth_strategy` przyjmuje `multipart/form-data`:
 
 - `website` (opcjonalny URL)
 - `context` (opcjonalny tekst)
 - `language` (`pl`/`en`)
-- `transcripts` (0..n plików)
+- `transcripts` (0..n plikÃ³w)
 
-Uwaga praktyczna: backend odczytuje pliki transkryptów jako UTF-8 (`decode(..., errors='ignore')`).
-Najpewniejszy format wejœciowy to `.txt`.
+Uwaga praktyczna: backend odczytuje pliki transkryptÃ³w jako UTF-8 (`decode(..., errors='ignore')`).
+Najpewniejszy format wejÅ›ciowy to `.txt`.
 
 ## 7. Script Management
 
 | Metoda | Endpoint | Opis |
 |---|---|---|
-| GET | `/api/scripts/list` | Lista skryptów. |
+| GET | `/api/scripts/list` | Lista skryptÃ³w. |
 | POST | `/api/scripts/save` | Zapis nowego skryptu. |
 | PUT | `/api/scripts/<script_id>` | Aktualizacja (`status`, `scheduled_date`, `chapters`, `title`). |
-| DELETE | `/api/scripts/<script_id>` | Usuniêcie skryptu. |
+| DELETE | `/api/scripts/<script_id>` | UsuniÄ™cie skryptu. |
 
-## 8. Nadpisanie konfiguracji AI per request
+## 8. Nadpisanie Konfiguracji AI Per Request
 
-Backend rozpoznaje konfiguracjê w nag³ówkach i payloadzie.
+Backend rozpoznaje konfiguracjÄ™ w nagÅ‚Ã³wkach i payloadzie.
 
-Nag³ówki:
+NagÅ‚Ã³wki:
 
 - `X-Gemini-Api-Key`
 - `X-Gemini-Model`
@@ -133,10 +133,7 @@ Payload:
 {
   "ai_config": {
     "api_key": "...",
-    "model": "gemini-3.1-flash-lite-preview"
+    "model": "gemini-3.5-flash"
   }
 }
 ```
-
-
-

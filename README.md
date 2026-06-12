@@ -4,7 +4,7 @@ Engineering thesis project: AI software for B2B founder-led marketing.
 
 Content Maximizer takes one long-form YouTube video or transcript and turns it into reusable content assets: clip ideas, blog sections, social posts, hooks, scripts, and strategy material. The core product idea is human-led creation with AI-assisted distribution: one strong long-form piece, then structured repurposing across platforms.
 
-Demo video: coming soon.
+Demo video: https://www.youtube.com/watch?si=hqFjvQrk1d2l7Tdh&v=lDyF7flPJzM&feature=youtu.be
 
 ## What It Does
 
@@ -66,7 +66,7 @@ You can either:
 
 ```env
 GEMINI_API_KEY=your_key_here
-GEMINI_MODEL=gemini-3-flash-preview
+GEMINI_MODEL=gemini-3.5-flash
 ```
 
 `backend/.env` is ignored by git.

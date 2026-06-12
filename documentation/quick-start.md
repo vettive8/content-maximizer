@@ -1,10 +1,10 @@
-# Szybki start (lokalnie)
+# Szybki Start (lokalnie)
 
 ## 1. Wymagania
 
 - Python `3.10+` (zalecane 3.11/3.12)
 - Node.js `18+` oraz `npm`
-- `ffmpeg` w `PATH` (wymagane do wycinania klipÛw)
+- `ffmpeg` w `PATH` (wymagane do wycinania klip√≥w)
 
 Sprawdzenie:
 
@@ -15,7 +15,7 @@ npm --version
 ffmpeg -version
 ```
 
-## 2. Backend - instalacja
+## 2. Backend - Instalacja
 
 ### Windows (PowerShell / CMD)
 
@@ -35,9 +35,9 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 3. Frontend - instalacja
+## 3. Frontend - Instalacja
 
-W katalogu g≥Ûwnym projektu:
+W katalogu g≈Ç√≥wnym projektu:
 
 ```bash
 cd c:\Development\ContentSaaS
@@ -76,14 +76,14 @@ Oczekiwany wynik health:
 }
 ```
 
-`gemini: false` oznacza, øe backend dzia≥a, ale nie ma aktywnego klucza API.
+`gemini: false` oznacza, ≈ºe backend dzia≈Ça, ale nie ma aktywnego klucza API.
 
-## 6. Konfiguracja klucza Gemini
+## 6. Konfiguracja Klucza Gemini
 
 Projekt wspiera 2 tryby konfiguracji:
 
 1. `Silnik AI` w frontendzie (zalecane):
-- otwÛrz zak≥adkÍ `Silnik AI`,
+- otw√≥rz zak≈Çadkƒô `Silnik AI`,
 - wpisz klucz API,
 - wybierz model,
 - kliknij zapis.
@@ -92,17 +92,16 @@ Projekt wspiera 2 tryby konfiguracji:
 
 ```env
 GEMINI_API_KEY=twoj_klucz
-GEMINI_MODEL=gemini-3.1-flash-lite-preview
+GEMINI_MODEL=gemini-3.5-flash
 PORT=5000
 ```
 
-Uwaga: frontend i tak moøe nadpisaÊ model/klucz runtime przez `/api/ai/config`.
+Uwaga: frontend i tak mo≈ºe nadpisaƒá model/klucz runtime przez `/api/ai/config`.
 
-## 7. Pierwszy test end-to-end
+## 7. Pierwszy Test End-To-End
 
-1. W `Maksymalizatorze Treúci` wklej URL YouTube i uruchom generowanie.
-2. Poczekaj na zakoÒczenie streamu `/api/process_stream`.
+1. W `Maksymalizatorze Tre≈õci` wklej URL YouTube i uruchom generowanie.
+2. Poczekaj na zako≈Ñczenie streamu `/api/process_stream`.
 3. Pobierz przynajmniej 1 klip (sprawdza `yt-dlp` + `ffmpeg`).
-4. W `Planie Gry` uruchom workflow i wygeneruj tytu≥y + rozdzia≥y + skrypt.
-5. Zapisz skrypt do `Zarzπdzanie skryptami` i sprawdü zmianÍ statusu.
-
+4. W `Planie Gry` uruchom workflow i wygeneruj tytu≈Çy + rozdzia≈Çy + skrypt.
+5. Zapisz skrypt do `ZarzƒÖdzanie skryptami` i sprawd≈∫ zmianƒô statusu.

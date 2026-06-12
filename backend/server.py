@@ -98,7 +98,7 @@ _processor_cache = {}
 _processor_lock = threading.Lock()
 _runtime_ai_config = {
     'api_key': os.environ.get('GEMINI_API_KEY'),
-    'model': os.environ.get('GEMINI_MODEL', 'gemini-3-flash-preview')
+    'model': os.environ.get('GEMINI_MODEL', 'gemini-3.5-flash')
 }
 
 # Async clip download jobs
@@ -141,7 +141,7 @@ def _extract_ai_config(payload=None):
 
 def get_processor(api_key=None, model_name=None):
     resolved_key = api_key or _runtime_ai_config.get('api_key') or os.environ.get('GEMINI_API_KEY')
-    resolved_model = model_name or _runtime_ai_config.get('model') or os.environ.get('GEMINI_MODEL', 'gemini-3-flash-preview')
+    resolved_model = model_name or _runtime_ai_config.get('model') or os.environ.get('GEMINI_MODEL', 'gemini-3.5-flash')
 
     if not resolved_key:
         raise ValueError("Gemini API key not configured")
@@ -586,7 +586,7 @@ def upload_transcript():
             processor.client,
             saved_path,
             language=language,
-            model_name=ai_config.get('model') or _runtime_ai_config.get('model') or 'gemini-3-flash-preview'
+            model_name=ai_config.get('model') or _runtime_ai_config.get('model') or 'gemini-3.5-flash'
         )
         if not transcript_result.get('success'):
             if saved_path and os.path.exists(saved_path):

@@ -11,12 +11,12 @@ if api_key:
     client = genai.Client(api_key=api_key)
     
     try:
-        print("\nTesting generation with gemini-3.1-flash-lite-preview...")
+        print("\nTesting generation with gemini-3.5-flash...")
         response_lite = client.models.generate_content(
-            model='gemini-3.1-flash-lite-preview',
-            contents="Hello, are you Gemini 3.1 Flash-Lite?"
+            model='gemini-3.5-flash',
+            contents="Hello, are you Gemini 3.5 Flash?"
         )
-        print(f"Response 3.1 Flash-Lite: {response_lite.text}")
+        print(f"Response 3.5 Flash: {response_lite.text}")
 
         print("\nTesting generation with gemini-3.1-pro-preview...")
         response_pro = client.models.generate_content(

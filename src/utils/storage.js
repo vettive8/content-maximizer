@@ -6,7 +6,7 @@ const STORAGE_KEYS = {
     SELECTED_MODEL: 'meos_selected_model'
 };
 
-const DEFAULT_MODEL = 'gemini-3-flash-preview';
+const DEFAULT_MODEL = 'gemini-3.5-flash';
 
 export function getApiKey() {
     return localStorage.getItem(STORAGE_KEYS.API_KEY) || '';

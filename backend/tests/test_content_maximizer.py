@@ -49,12 +49,12 @@ class TestContentProcessor(unittest.TestCase):
             "sample transcript",
             [],
             language="en",
-            model_name="gemini-3.1-flash-lite-preview"
+            model_name="gemini-3.5-flash"
         )
 
         self.assertTrue(result["success"])
         call_kwargs = fake_client.models.generate_content.call_args.kwargs
-        self.assertEqual(call_kwargs["model"], "gemini-3.1-flash-lite-preview")
+        self.assertEqual(call_kwargs["model"], "gemini-3.5-flash")
         self.assertIn("English", call_kwargs["contents"])
         self.assertNotIn("Analyze this Polish video transcript", call_kwargs["contents"])
         self.assertIn("ALL text fields MUST be written in English", call_kwargs["contents"])
@@ -69,7 +69,7 @@ class TestContentProcessor(unittest.TestCase):
             "sample transcript",
             [],
             language="pl",
-            model_name="gemini-3.1-flash-lite-preview"
+            model_name="gemini-3.5-flash"
         )
 
         self.assertTrue(result["success"])
@@ -265,7 +265,7 @@ class TestContentProcessor(unittest.TestCase):
             "error": "social failed"
         })
 
-        result = self.processor.process_full_content("text", [], language="en", model_name="gemini-3.1-flash-lite-preview")
+        result = self.processor.process_full_content("text", [], language="en", model_name="gemini-3.5-flash")
         self.assertFalse(result["success"])
         self.assertEqual(result["clips"], [])
         self.assertEqual(result["blog"]["title"], "Blog Title")

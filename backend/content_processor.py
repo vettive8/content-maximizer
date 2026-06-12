@@ -14,7 +14,7 @@ from jsonschema import ValidationError, validate
 from schemas import CM_BLOG_SCHEMA, CM_CLIPS_SCHEMA, CM_SOCIAL_SCHEMA
 
 
-DEFAULT_GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
+DEFAULT_GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
 DEFAULT_THINKING_LEVEL = os.environ.get("GEMINI_THINKING_LEVEL", "low")
 
 

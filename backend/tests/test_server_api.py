@@ -150,7 +150,7 @@ class TestServerApi(unittest.TestCase):
             "language": "en",
             "ai_config": {
                 "api_key": "my-test-key",
-                "model": "gemini-3.1-flash-lite-preview"
+                "model": "gemini-3.5-flash"
             }
         })
 
@@ -159,7 +159,7 @@ class TestServerApi(unittest.TestCase):
         self.assertTrue(payload["success"])
         mock_get_processor.assert_called_once_with(
             api_key="my-test-key",
-            model_name="gemini-3.1-flash-lite-preview"
+            model_name="gemini-3.5-flash"
         )
 
     @patch("server.get_processor")
@@ -209,19 +209,19 @@ class TestServerApi(unittest.TestCase):
     def test_ai_config_endpoints(self):
         set_response = self.client.post("/api/ai/config", json={
             "api_key": "abc123",
-            "model": "gemini-3.1-flash-lite-preview"
+            "model": "gemini-3.5-flash"
         })
         self.assertEqual(set_response.status_code, 200)
         set_payload = set_response.get_json()
         self.assertTrue(set_payload["success"])
-        self.assertEqual(set_payload["model"], "gemini-3.1-flash-lite-preview")
+        self.assertEqual(set_payload["model"], "gemini-3.5-flash")
         self.assertTrue(set_payload["configured"])
 
         get_response = self.client.get("/api/ai/config")
         self.assertEqual(get_response.status_code, 200)
         get_payload = get_response.get_json()
         self.assertTrue(get_payload["success"])
-        self.assertEqual(get_payload["model"], "gemini-3.1-flash-lite-preview")
+        self.assertEqual(get_payload["model"], "gemini-3.5-flash")
         self.assertTrue(get_payload["configured"])
 
     @patch("server.get_processor")

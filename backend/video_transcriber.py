@@ -17,7 +17,7 @@ UPLOADS_DIR = os.path.join(os.path.dirname(__file__), "uploads")
 os.makedirs(UPLOADS_DIR, exist_ok=True)
 
 SUPPORTED_EXTENSIONS = {".mp4"}
-DEFAULT_GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
+DEFAULT_GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash")
 DEFAULT_THINKING_LEVEL = os.environ.get("GEMINI_THINKING_LEVEL", "low")
 
 
